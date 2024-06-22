@@ -1,3 +1,6 @@
+# Ce programme roule le model whisper de base sur un ficher et 
+# ajoute la transcription dans un fichier texte.
+
 import whisper
 import datetime
 
