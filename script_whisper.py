@@ -6,7 +6,7 @@ import datetime
 
 date = str(datetime.date.today())
 model = whisper.load_model("base")
-out = model.transcribe("HUxUbcoTB_4.m4a", language="english")
+out = model.transcribe("recording.wav", language="english")
 
 print(out['text'])
 

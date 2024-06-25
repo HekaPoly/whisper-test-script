@@ -65,4 +65,6 @@ class WhisperStream:
     
 if __name__ == "__main__":
     ws = WhisperStream()
-    ws.process_audio(seconds=15)  # Change the duration as needed
+
+    text = ws.process_audio(seconds=15)  # Change the duration as needed
+    print(text.read)
